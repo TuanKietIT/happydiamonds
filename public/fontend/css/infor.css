@@ -1,0 +1,124 @@
+
+.product-container{
+	max-width: 1000px;
+	margin: 50px auto;
+	position: relative;
+    width: 100%;
+	background: #FFF;
+	display: grid;
+	min-height: 800px;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.product-left{
+	position: relative;
+	background-color: #1E90FF;
+	padding: 40px;
+}
+
+.profileText{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.profileText .image{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.profileText .image img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.profileText h2{
+	color: #f3f3f3;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.4em;
+}
+.profileText .logo{
+	position: relative;
+	width: 350px;
+	height: 80px;
+	overflow: hidden;
+}
+.profileText .logo img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+@media(max-width:768px){
+	.profileText .logo {
+		margin-left: 0px;
+	}
+}
+.contactInfo{
+	padding-top: 30px;
+}
+
+
+
+.contactInfo ul{
+    position: relative;
+
+}
+.contactInfo ul li{
+	position: relative;
+	list-style: none;
+    margin: 10px 0;
+}
+.contactInfo ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: #DCDCDC;
+
+}
+.contactInfo ul li span{
+	color: #fff;
+}
+
+
+.product-right{
+	position: relative;
+	background-color: #fff;
+	padding: 40px;
+}
+.about-info{
+	margin-bottom: 20px;
+}
+
+.about-info:last-child{
+	margin-bottom: 0;
+}
+
+.title2{
+	color: #B22222;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+
+.about-info p{
+	text-align: center;
+	color: #909090;
+	font-weight: 300;
+}
